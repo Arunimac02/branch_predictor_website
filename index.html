@@ -1,2 +1,43 @@
-<!doctype html><html lang="en">  <head>    <meta charset="utf-8" />    <meta name="viewport" content="width=device-width, initial-scale=1" />    <title>Research Paper Listing</title>    <link rel="stylesheet" href="style.css" />  </head>  <body>    <header class="site-header">      <div class="header-inner">        <div>          <h1>Research Paper Listing</h1>          <p class="subtitle">Local PDF library for student presentations</p>        </div>        <div class="search-wrap">          <label class="search-label" for="search">Search</label>          <input id="search" type="search" placeholder="Search title, authors, presenters" autocomplete="off" />        </div>      </div>    </header>    <main class="content">      <div class="table-wrap">        <table id="papers-table">          <thead>            <tr>              <th data-key="title" aria-sort="none">Title</th>              <th data-key="authors" aria-sort="none">Authors</th>              <th data-key="presenters" aria-sort="none">Presenters</th>              <th data-key="date" aria-sort="none">Date</th>              <th>Actions</th>            </tr>          </thead>          <tbody>            <tr>              <td colspan="5" class="status-cell">Loading papers…</td>            </tr>          </tbody>        </table>      </div>    </main>    <footer class="site-footer">      <h2>GitHub Pages Deployment</h2>      <ol>        <li>Create a GitHub repository.</li>        <li>Add <code>index.html</code>, <code>style.css</code>, <code>script.js</code>, <code>papers.json</code>, and the <code>pdfs/</code> folder.</li>        <li>Commit and push to <code>main</code>.</li>        <li>Go to Repository Settings -> Pages.</li>        <li>Set Source to <code>main</code> branch, root folder.</li>        <li>Save and open the generated URL.</li>      </ol>    </footer>    <script src="script.js"></script>  </body></html>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Research Papers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div>
+          <h1>Research Papers</h1>
+        </div>
+        <div class="search-wrap">
+          <label class="search-label" for="search">Search</label>
+          <input id="search" type="search" placeholder="Search title, authors, presenters" autocomplete="off" />
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <div class="table-wrap">
+        <table id="papers-table">
+          <thead>
+            <tr>
+              <th data-key="title" aria-sort="none">Title</th>
+              <th data-key="authors" aria-sort="none">Authors</th>
+              <th data-key="presenters" aria-sort="none">Presenters</th>
+              <th data-key="date" aria-sort="none">Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="5" class="status-cell">Loading papersâ€¦</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
