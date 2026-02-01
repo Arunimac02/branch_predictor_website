@@ -1,0 +1,124 @@
+﻿[
+    {
+        "title":  "A Study of Branch Prediction Strategies",
+        "authors":  [
+                        "James E. Smith"
+                    ],
+        "presenters":  [
+                          "student a"
+
+                       ],
+        "pdf":  "pdfs/paper1.pdf",
+        "date":  "14th March 2024"
+    },
+    {
+        "title":  "Branch Prediction for Free",
+        "authors":  [
+                        "Thomas Ball",
+                        "James R. Larus"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper2.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Two-Level Adaptive Training Branch Prediction",
+        "authors":  [
+                        "Tse-Yu Yeh",
+                        "Yale N. Patt"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper3.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Using Hybrid Branch Predictors to Improve Branch Prediction Accuracy in the Presence of Context Switches",
+        "authors":  [
+                        "Marius Evers",
+                        "Po-Yung Chang",
+                        "Yale N. Patt"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper4.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "A New Case for the TAGE Branch Predictor",
+        "authors":  [
+                        "André Seznec"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper5.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "The Agree Predictor: A Mechanism for Reducing Negative Branch History Interference",
+        "authors":  [
+                        "Eric Sprangle",
+                        "Robert S. Chappell",
+                        "Mitch Alsup",
+                        "Yale N. Patt"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper6.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Combining Branch Predictors",
+        "authors":  [
+                        "Scott McFarling"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper7.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Trading Conflict and Capacity Aliasing in Conditional Branch Predictors",
+        "authors":  [
+                        "Pierre Michaud",
+                        "André Seznec",
+                        "Richard Uhlig"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper8.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Analysis of Branch Prediction via Data Compression",
+        "authors":  [
+                        "I-Cheng K. Chen",
+                        "John T. Coffey",
+                        "Trevor N. Mudge"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper9.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Code Placement for Improving Dynamic Branch Prediction Accuracy",
+        "authors":  [
+                        "Daniel A. Jiménez"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper10.pdf",
+        "date":  ""
+    }
+]
