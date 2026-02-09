@@ -5,11 +5,11 @@
                         "James E. Smith"
                     ],
         "presenters":  [
-                          "student a"
+                          
 
                        ],
         "pdf":  "pdfs/paper1.pdf",
-        "date":  "14th March 2024"
+        "date":  ""
     },
     {
         "title":  "Branch Prediction for Free",
@@ -18,10 +18,11 @@
                         "James R. Larus"
                     ],
         "presenters":  [
+                        "Dhanya Babu", "Shruthi Krishnan"
 
                        ],
         "pdf":  "pdfs/paper2.pdf",
-        "date":  ""
+        "date":  "2026-02-24"
     },
     {
         "title":  "Two-Level Adaptive Training Branch Prediction",
@@ -30,6 +31,7 @@
                         "Yale N. Patt"
                     ],
         "presenters":  [
+                        
 
                        ],
         "pdf":  "pdfs/paper3.pdf",
@@ -43,10 +45,12 @@
                         "Yale N. Patt"
                     ],
         "presenters":  [
+                        
+                        "Aditya Viswanadha", "Shantanu Arun Wanivadekar"
 
                        ],
         "pdf":  "pdfs/paper4.pdf",
-        "date":  ""
+        "date":  "2026-02-26"
     },
     {
         "title":  "A New Case for the TAGE Branch Predictor",
@@ -54,10 +58,10 @@
                         "André Seznec"
                     ],
         "presenters":  [
-
+                            "Sai Akhil Venkatesh Khasim Setty", "Kavya Shree Muniraju"
                        ],
         "pdf":  "pdfs/paper5.pdf",
-        "date":  ""
+        "date":  "2026-03-03"
     },
     {
         "title":  "The Agree Predictor: A Mechanism for Reducing Negative Branch History Interference",
@@ -68,6 +72,7 @@
                         "Yale N. Patt"
                     ],
         "presenters":  [
+                            
 
                        ],
         "pdf":  "pdfs/paper6.pdf",
@@ -80,9 +85,10 @@
                     ],
         "presenters":  [
 
+                            "Hitarth Girishkumar Shajwani", "Sohil Dhiren Sheth", "Prabhat Kumar"
                        ],
         "pdf":  "pdfs/paper7.pdf",
-        "date":  ""
+        "date":  "2026-03-17"
     },
     {
         "title":  "Trading Conflict and Capacity Aliasing in Conditional Branch Predictors",
@@ -92,10 +98,10 @@
                         "Richard Uhlig"
                     ],
         "presenters":  [
-
+                            "Maccoy Garland Merrell", "Elan Landau"
                        ],
         "pdf":  "pdfs/paper8.pdf",
-        "date":  ""
+        "date":  "2026-03-19"
     },
     {
         "title":  "Analysis of Branch Prediction via Data Compression",
@@ -105,10 +111,11 @@
                         "Trevor N. Mudge"
                     ],
         "presenters":  [
+                            "Tianfang Guo", "Daniel C. Puckett"
 
                        ],
         "pdf":  "pdfs/paper9.pdf",
-        "date":  ""
+        "date":  "2026-03-31"
     },
     {
         "title":  "Code Placement for Improving Dynamic Branch Prediction Accuracy",
@@ -120,5 +127,217 @@
                        ],
         "pdf":  "pdfs/paper10.pdf",
         "date":  ""
+    },
+    {
+        "title":  "Piecewise Linear Branch Prediction",
+        "authors":  [
+                        "Daniel A. Jiménez"
+                    ],
+        "presenters":  [
+                        "Sairam Viswanathan Susarla", "Setu Gupta"
+                       ],
+        "pdf":  "pdfs/paper11.pdf",
+        "date":  "2026-04-02"
+    },
+    {
+        "title":  "Analysis of the O-GEometric History Length branch predictor",
+        "authors":  [
+                        "André Seznec"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper12.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "TAGE-SC for CBP2025",
+        "authors":  [
+                        "André Seznec"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper13.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Multiperspective Perceptron Branch Predictor",
+        "authors":  [
+                        "Daniel A. Jiménez"
+                    ],
+        "presenters":  [
+                        "Sahil Kaushal", "Sushanth Badareesh Mullangi"
+                       ],
+        "pdf":  "pdfs/paper14.pdf",
+        "date":  "2026-04-07"
+    },
+    {
+        "title":  "BranchNet: A Convolutional Neural Network to Predict Hard-To-Predict Branches",
+        "authors":  [
+                        "Siavash Zangeneh", "Stephen Pruett", "Sangkug Lym", "Yale N. Patt"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper15.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Whisper: Profile-Guided Branch Misprediction Elimination for Data Center Applications",
+        "authors":  [
+                        "Tanvir Ahmed Khan", "Muhammed Ugur", "Krishnendra Nathella", "Dam Sunwoo", "Heiner Litz", "Daniel A. Jiménez", "Baris Kasikci"
+                    ],
+        "presenters":  [
+                            "Andy Chiu", "Zane Suzawa Meikle"
+                       ],
+        "pdf":  "pdfs/paper16.pdf",
+        "date":  "2026-04-09"
+    },
+    {
+        "title":  "Bias-Free Branch Predictor",
+        "authors":  [
+                        "Dibakar Gope", "Mikko H. Lipasti"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper17.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "The Inner Most Loop Iteration counter: a new dimension in branch history",
+        "authors":  [
+                        "André Seznec", "Joshua San Miguel", "Jorge Albericio"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper18.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "A 64-Kbytes ITTAGE indirect branch predictor",
+        "authors":  [
+                        "André Seznec"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper19.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Bit-level Perceptron Prediction for Indirect Branches",
+        "authors":  [
+                        "Elba Garza", "Samira Mirbagher-Ajorpaz", "Tahsin Ahmad Khan", "Daniel A. Jiménez"
+                    ],
+        "presenters":  [
+                            "Minh Khoi Le", "Saba Mostofi"
+                       ],
+        "pdf":  "pdfs/paper20.pdf",
+        "date":  "2026-04-14"
+    },
+    {
+        "title":  "VPC Prediction: Reducing the Cost of Indirect Branches via Hardware-Based Dynamic Devirtualization",
+        "authors":  [
+                        "Hyesoon Kim", "José A. Joao", "Onur Mutlu", "Chang Joo Lee", "Yale N. Patt", "Robert Cohn"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper21.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Towards the adoption of Local Branch Predictors in Modern Out-of-Order Superscalar Processors",
+        "authors":  [
+                        "Niranjan Soundararajan", "Saurabh Gupta", "Ragavendra Natarajan", "Jared Stark", "Rahul Pal", "Franck Sala", "Lihu Rappoport", "Adi Yoaz", "Sreenivas Subramoney"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper22.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Branch Prediction Is Not a Solved Problem: Measurements, Opportunities, and Future Directions",
+        "authors":  [
+                        "Chit-Kwan Lin", "Stephen J. Tarsa"
+                    ],
+        "presenters":  [
+                            "Joshua Mashburn", "Ana Eugenia Sanchez"
+                            
+                       ],
+        "pdf":  "pdfs/paper23.pdf",
+        "date":  "2026-04-16"
+    },
+    {
+        "title":  "Program Interferometry",
+        "authors":  [
+                        "Zhe Wang", "Daniel A. Jiménez"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper24.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Warming Up a Cold Front-End with Ignite",
+        "authors":  [
+                        "David Schall", "Andreas Sandberg", "Boris Grot"
+                    ],
+        "presenters":  [
+                            "Charles E. Williams", "Arun Kumar Vijayakumar"
+                       ],
+        "pdf":  "pdfs/paper25.pdf",
+        "date":  "2026-04-21"
+    },
+    {
+        "title":  "The Last-Level Branch Predictor",
+        "authors":  [
+                        "David Schall", "Andreas Sandberg", "Boris Grot"
+                    ],
+        "presenters":  [
+                            "Shotaro Shintani", "Yashwant Kumar Balivada"
+                       ],
+        "pdf":  "pdfs/paper26.pdf",
+        "date":  "2026-04-23"
+    },
+    {
+        "title":  "The Last-Level Branch Predictor Revisited",
+        "authors":  [
+                        "David Schall", "Mária Ďuračková", "Boris Grot"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper27.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Enabling Ahead Prediction with Practical Energy Constraints",
+        "authors":  [
+                        "Lingzhe(Chester) Cai", "Aniket Deshmukh", "Yale Patt"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper28.pdf",
+        "date":  ""
+    },
+    {
+        "title":  "Leveraging control-flow similarity to reduce branch predictor cold effects in microservices",
+        "authors":  [
+                        "Haris Volos", "Stylianos Vassiliou", "Georgia Antoniou", "Davide Basilio Bartolini", "Yiannakis Sazeides"
+                    ],
+        "presenters":  [
+
+                       ],
+        "pdf":  "pdfs/paper29.pdf",
+        "date":  ""
     }
+
+    
 ]

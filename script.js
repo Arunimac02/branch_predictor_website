@@ -38,13 +38,20 @@ function renderRows(rows) {
     const authors = Array.isArray(paper.authors) ? paper.authors.join(", ") : "";
     const presenters = Array.isArray(paper.presenters) ? paper.presenters.join(", ") : "";
     const pdfPath = getPdfPath(paper);
-    const date = paper.date ? paper.date : "-";
+    const dateValue = paper.date || "";
+    const dateLabel = dateValue
+      ? new Date(`${dateValue}T00:00:00`).toLocaleDateString(undefined, {
+          year: "numeric",
+          month: "short",
+          day: "numeric"
+        })
+      : "-";
 
     row.innerHTML = `
       <td>${paper.title}</td>
       <td>${authors}</td>
       <td>${presenters}</td>
-      <td>${date}</td>
+      <td>${dateLabel}</td>
       <td>
         <div class="actions">
           <a class="button primary" href="${pdfPath}" target="_blank" rel="noopener">View</a>
@@ -77,10 +84,15 @@ function applySort(key, direction, updateHeader = true) {
   const multiplier = direction === "asc" ? 1 : -1;
 
   filtered.sort((a, b) => {
-    const valueA =
-      key === "title" ? a.title : key === "date" ? a.date || "" : (a[key] || []).join(", ");
-    const valueB =
-      key === "title" ? b.title : key === "date" ? b.date || "" : (b[key] || []).join(", ");
+    if (key === "date") {
+      const fallback = direction === "asc" ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY;
+      const valueA = a.date ? Date.parse(`${a.date}T00:00:00`) : fallback;
+      const valueB = b.date ? Date.parse(`${b.date}T00:00:00`) : fallback;
+      return (valueA - valueB) * multiplier;
+    }
+
+    const valueA = key === "title" ? a.title : (a[key] || []).join(", ");
+    const valueB = key === "title" ? b.title : (b[key] || []).join(", ");
     return valueA.localeCompare(valueB, undefined, { sensitivity: "base" }) * multiplier;
   });
 
@@ -100,7 +112,8 @@ function applySort(key, direction, updateHeader = true) {
 
 function handleHeaderClick(event) {
   const key = event.currentTarget.dataset.key;
-  const nextDirection = sortState.key === key && sortState.direction === "asc" ? "desc" : "asc";
+  const nextDirection =
+    sortState.key === key ? (sortState.direction === "asc" ? "desc" : "asc") : "asc";
   applySort(key, nextDirection, true);
 }
 
@@ -122,4 +135,3 @@ searchInput.addEventListener("input", applySearch);
 headers.forEach((header) => header.addEventListener("click", handleHeaderClick));
 
 loadPapers();
-
