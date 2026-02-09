@@ -4,7 +4,7 @@ const headers = Array.from(document.querySelectorAll("th[data-key]"));
 
 let papers = [];
 let filtered = [];
-let sortState = { key: "title", direction: "asc" };
+let sortState = { key: "date", direction: "asc" };
 
 function slugify(title) {
   return title
