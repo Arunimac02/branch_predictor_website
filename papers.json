@@ -61,7 +61,7 @@
                             "Sai Akhil Venkatesh Khasim Setty", "Kavya Shree Muniraju"
                        ],
         "pdf":  "pdfs/paper5.pdf",
-        "date":  "2026-03-03"
+        "date":  "2026-03-17"
     },
     {
         "title":  "The Agree Predictor: A Mechanism for Reducing Negative Branch History Interference",
@@ -88,7 +88,7 @@
                             "Hitarth Girishkumar Shajwani", "Sohil Dhiren Sheth", "Prabhat Kumar"
                        ],
         "pdf":  "pdfs/paper7.pdf",
-        "date":  "2026-03-17"
+        "date":  "2026-03-03"
     },
     {
         "title":  "Trading Conflict and Capacity Aliasing in Conditional Branch Predictors",
