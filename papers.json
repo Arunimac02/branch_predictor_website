@@ -22,7 +22,7 @@
 
                        ],
         "pdf":  "pdfs/paper2.pdf",
-        "date":  "2026-02-24"
+        "date":  "2026-04-02"
     },
     {
         "title":  "Two-Level Adaptive Training Branch Prediction",
@@ -137,7 +137,7 @@
                         "Sairam Viswanathan Susarla", "Setu Gupta"
                        ],
         "pdf":  "pdfs/paper11.pdf",
-        "date":  "2026-04-02"
+        "date":  "2026-02-24"
     },
     {
         "title":  "Analysis of the O-GEometric History Length branch predictor",
